@@ -109,6 +109,14 @@ plot(interval_mean_steps$mean_steps,
 
 ```
 
+2. The 5 minute interval on average across all the days in the dataset having the maximum number of steps
+
+```{r}
+interval_mean_steps[which.max(interval_mean_steps$mean_steps),]
+```
+
+  The interval having the maximum number of steps is 835.
+
 ## Imputing missing values
 
 1. The total number of missing values in the dataset
